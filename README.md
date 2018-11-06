@@ -19,3 +19,5 @@ Viikko 1     |
 [gitlog.txt](https://github.com/hunnak/ot-harjoitusty-/blob/master/laskarit/viikko1/gitlog.txt)
       
 *paikalliselta repositiolta lisaa muutosta*
+
+*jebs*
