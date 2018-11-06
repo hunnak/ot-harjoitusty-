@@ -1,0 +1,83 @@
+commit 7e31259cff55924e46a15d5f060c5f54cc0a1de2
+Author: Hunski <joel.hunnakko@helsinki.fi>
+Date:   Tue Nov 6 13:45:56 2018 +0200
+
+    file1 poistettu ja file22 in da game
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 79a2d00224c46320e0bc5fca96d1890fd016e80c
+Author: Hunski <joel.hunnakko@helsinki.fi>
+Date:   Tue Nov 6 13:40:42 2018 +0200
+
+    lisättiin tiedostoja kansio
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 3c55e130c53b23970e45ddd8a40965548cd782f1
+Author: Hunski <joel.hunnakko@helsinki.fi>
+Date:   Tue Nov 6 13:32:36 2018 +0200
+
+    muutoksii ekas ja kolmannes
+
+ eka.txt    | 3 ++-
+ kolmas.txt | 2 +-
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+
+commit 45b2ed75feb0dcde3f3f4e3feb1b964e6c95f4db
+Author: Hunski <joel.hunnakko@helsinki.fi>
+Date:   Tue Nov 6 13:30:08 2018 +0200
+
+    eka messissä
+
+ eka.txt | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit 1b83f363582a50e8b5c289cf75cf416a5f73ab67
+Author: Hunski <joel.hunnakko@helsinki.fi>
+Date:   Tue Nov 6 13:29:24 2018 +0200
+
+    tiedosto uudelleen nimettiin ekaks
+
+ tiedosto.txt | 5 -----
+ 1 file changed, 5 deletions(-)
+
+commit 21987320cd6f0a745f81ae353196e3c0e4d2dc9b
+Author: Hunski <joel.hunnakko@helsinki.fi>
+Date:   Tue Nov 6 13:28:16 2018 +0200
+
+    toinen poistettu
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 8e33bd690de44b093f58369c7f2e2e4c455ae754
+Author: Hunski <joel.hunnakko@helsinki.fi>
+Date:   Tue Nov 6 13:24:55 2018 +0200
+
+    mortti on badass
+
+ tiedosto.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 9dde800c490b0164fb0adc607a20410ca8dca886
+Author: Hunski <joel.hunnakko@helsinki.fi>
+Date:   Tue Nov 6 13:23:46 2018 +0200
+
+    mortti hyökkää
+
+ tiedosto.txt | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+commit ed13fd19c200abc78e951f50ba32a3ae697b4aaf
+Author: Hunski <joel.hunnakko@helsinki.fi>
+Date:   Tue Nov 6 13:15:28 2018 +0200
+
+    stuff kansio luotu
+
+ stuff/jebajee.txt | 0
