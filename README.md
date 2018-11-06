@@ -13,9 +13,8 @@ _You **can** combine them_
 Viikko 1     | 
 ------------ |
 
-
-        ot-harjoitusty-/laskarit/viikko1/gitlog.txt
+[komentorivi.txt](https://github.com/hunnak/ot-harjoitusty-/blob/master/laskarit/viikko1/komentorivi.txt)
         
         
-        ot-harjoitusty-/laskarit/viikko1/komentorivi.txt
+[gitlog.txt](https://github.com/hunnak/ot-harjoitusty-/blob/master/laskarit/viikko1/gitlog.txt)
       
