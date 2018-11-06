@@ -81,3 +81,5 @@ Date:   Tue Nov 6 13:15:28 2018 +0200
     stuff kansio luotu
 
  stuff/jebajee.txt | 0
+ 
+ lisäyst uosraa githubist
