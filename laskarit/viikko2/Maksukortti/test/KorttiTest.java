@@ -68,6 +68,30 @@ public class KorttiTest {
         kortti.lataaRahaa(200);
         assertEquals("Kortilla on rahaa 150.0 euroa", kortti.toString());
     }
+    @Test
+    public void kortilleEiVoiLadataNegatiivistaRahaa() {
+        double x;
+        x=-1.0;
+        kortti.lataaRahaa(x);
+        if(x<0){
+        
+        assertEquals("Kortilla on rahaa 10.0 euroa", kortti.toString());
+        } 
+    }
+    @Test 
+    public void vainEdullistaLounasta(){
+        kortti.syoEdullisesti();
+        kortti.syoEdullisesti();
+        kortti.syoEdullisesti();
+        kortti.syoEdullisesti();
+        assertEquals("Kortilla on rahaa 0.0 euroa", kortti.toString());
+    }
+     @Test 
+    public void voiOStaaTasanMaukasLounas(){
+        Maksukortti korttinen= new Maksukortti(4);
+        korttinen.syoMaukkaasti();
+        assertEquals("Kortilla on rahaa 0.0 euroa", korttinen.toString());
+    }
 
     }
 
