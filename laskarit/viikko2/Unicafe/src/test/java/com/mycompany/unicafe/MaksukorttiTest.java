@@ -40,4 +40,8 @@ public class MaksukorttiTest {
        assertEquals(10,kortti.saldo());
               
     } 
+    @Test
+    public void toStringTest(){
+        assertEquals("saldo: 0.10",kortti.toString());
+    }
 }
