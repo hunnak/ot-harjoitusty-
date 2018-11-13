@@ -21,6 +21,7 @@ import static org.junit.Assert.*;
 public class KassapaateTest {
     
     Kassapaate kassa;
+    Maksukortti kortti;
     public KassapaateTest() {
         
     }
@@ -28,6 +29,7 @@ public class KassapaateTest {
     @Before
     public void setUp() {
         kassa=new Kassapaate();
+        kortti=new Maksukortti(1000);
     }
     
     @Test
@@ -105,5 +107,49 @@ public class KassapaateTest {
             assertEquals(vaihtoraha, maksu);
             assertEquals(0,kassa.maukkaitaLounaitaMyyty());
     } 
+    @Test
+    public void maukkaastiKortilRiittaaRaha(){
+        kassa.syoMaukkaasti(kortti);
+        assertEquals(600,kortti.saldo());
+        assertEquals(1,kassa.maukkaitaLounaitaMyyty());
+        assertEquals(100000,kassa.kassassaRahaa());
+        
+    }
+    @Test
+    public void edullisestiKortilRiittaaRaha(){
+        kassa.syoEdullisesti(kortti);
+        assertEquals(760,kortti.saldo());
+        assertEquals(1,kassa.edullisiaLounaitaMyyty());
+        assertEquals(100000,kassa.kassassaRahaa());
+    }
+    @Test
+    public void maukkaastiAMEERIKANEXPRESS(){
+        kassa.syoEdullisesti(kortti);
+        kassa.syoEdullisesti(kortti);
+        kassa.syoEdullisesti(kortti);
+        kassa.syoMaukkaasti(kortti);
+        assertEquals(280,kortti.saldo());
+        assertEquals(0,kassa.maukkaitaLounaitaMyyty());
+        assertEquals(100000,kassa.kassassaRahaa());
+    }
+    @Test
+    public void edullisestiAMEERICANEXPRESS(){
+        kassa.syoMaukkaasti(kortti);
+        kassa.syoMaukkaasti(kortti);
+        kassa.syoEdullisesti(kortti);
+        assertEquals(200,kortti.saldo());
+        assertEquals(0,kassa.edullisiaLounaitaMyyty());
+        assertEquals(100000,kassa.kassassaRahaa());
+    }
+    @Test
+    public void latausTesti(){
+        int summa=200;
+        if(summa>0){
+        kassa.lataaRahaaKortille(kortti, summa);
+        assertEquals(1200, kortti.saldo());
+        assertEquals(100200,kassa.kassassaRahaa());
+        }
+        return;
+    }
         
 }
