@@ -47,4 +47,13 @@ public class KorttiTest {
          
          assertEquals("Kortilla on rahaa 10.0 euroa", vastaus);
      }
+     
+     @Test
+    public void syoEdullisestiVahentaaSaldoaOikein() {
+    Maksukortti kortti = new Maksukortti(10);
+    
+    kortti.syoEdullisesti();
+    
+    assertEquals("Kortilla on rahaa 7.5 euroa", kortti.toString());
+}
 }
