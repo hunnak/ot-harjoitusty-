@@ -1,6 +1,9 @@
 First Header | 
 ------------ |
 
+Linkki suunnitelmaan 
+[suunnitelma](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentointi/suunnitelma.md)
+
 *This text will be italic*
 _This will also be italic_
 
