@@ -1,0 +1,16 @@
+työaikakirjanpito
+
+| päivä | aika | mitä tein  |
+| :----:|:-----| :-----|
+| 6.11  | 3    | tutustuminen JavaFX:n |
+|       | 2    | käyttöliittymän alustava toteutus, todojen luominen |
+|       | 2    | käyttäjänhallinta, tallennus tiedostoon, ekat laskarit |
+| 13.11 | 6    | kakkoslaskarit, harjoitellut testien tekemistä|
+|       | 2    | määrittelydokumentti/suunnitelma harkka työstä |
+| xx.11 | 0    | arkkitehtuurikuvaus |
+|       | 0    | testaus |
+| xx.xx | 0    | koodin refaktorointia |
+| xx.xx | 0    | arkkitehtuurikuvauksen tarkennus |
+| xx.xx | 0    | käyttöohje |
+| xx.xx | 0    | testaus |
+| yht   | ?    | | 

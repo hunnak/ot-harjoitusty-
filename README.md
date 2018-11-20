@@ -1,11 +1,9 @@
-First Header | 
+READ ME!     | 
 ------------ |
 
 Linkki suunnitelmaan 
 [suunnitelma](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentointi/suunnitelma.md)
 
-*This text will be italic*
-_This will also be italic_
 
 **This text will be bold**
 __This will also be bold__
