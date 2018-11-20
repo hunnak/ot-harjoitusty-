@@ -1,12 +1,12 @@
 READ ME!     | 
 ------------ |
 
-Linkki suunnitelmaan 
+Linkit
 [suunnitelma](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentointi/suunnitelma.md)
 
+[työaikakirjanpito](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentointi/tyoaikakirjanpito)
 
-**This text will be bold**
-__This will also be bold__
+
 
 _You **can** combine them_
 
