@@ -12,4 +12,16 @@ package com.mycompany.budjetti;
  */
 public class Income {
     
+        private int totalIncome;
+    public Income(){
+        
+    }
+    public void setTotalIncome(int x){
+        this.totalIncome=x;
+    }
+    public int getIncome(){
+        return this.totalIncome;
+    }
+    
+    
 }

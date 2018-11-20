@@ -144,12 +144,12 @@ public class KassapaateTest {
     @Test
     public void latausTesti(){
         int summa=200;
-        if(summa>0){
+        
         kassa.lataaRahaaKortille(kortti, summa);
         assertEquals(1200, kortti.saldo());
         assertEquals(100200,kassa.kassassaRahaa());
-        }
-        return;
+        
+        
     }
         
 }

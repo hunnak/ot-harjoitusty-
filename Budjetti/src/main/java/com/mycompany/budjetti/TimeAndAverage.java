@@ -23,4 +23,5 @@ public class TimeAndAverage {
         return this.totaltime;
     }
     
+    
 }
