@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.budjetti;
+package com.mycompany.budjetti.logic;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -16,9 +16,9 @@ import static org.junit.Assert.*;
  *
  * @author joelhunn
  */
-public class IncomeTest {
+public class FixedSpendsTest {
     
-    public IncomeTest() {
+    public FixedSpendsTest() {
     }
     
     @BeforeClass

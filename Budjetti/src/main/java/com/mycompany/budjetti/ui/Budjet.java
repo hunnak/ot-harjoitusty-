@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.budjetti;
+package com.mycompany.budjetti.ui;
 
+import com.mycompany.budjetti.logic.TimeAndAverage;
 import java.util.Scanner;
 
 /**

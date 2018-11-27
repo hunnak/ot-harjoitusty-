@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.budjetti;
+package com.mycompany.budjetti.logic;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -16,9 +16,9 @@ import static org.junit.Assert.*;
  *
  * @author joelhunn
  */
-public class BudjetTest {
+public class IncomeTest {
     
-    public BudjetTest() {
+    public IncomeTest() {
     }
     
     @BeforeClass
@@ -31,23 +31,15 @@ public class BudjetTest {
     
     @Before
     public void setUp() {
-        
     }
     
     @After
     public void tearDown() {
     }
 
-    
-     @Test
-     public void hello() {}
-     
-    /* @Test
-     public void doesOneWork(){
-         Budjet test= new Budjet();
-         System.out.print("1");
-     } 
-    */
-     
-     
+    // TODO add test methods here.
+    // The methods must be annotated with annotation @Test. For example:
+    //
+    // @Test
+    // public void hello() {}
 }

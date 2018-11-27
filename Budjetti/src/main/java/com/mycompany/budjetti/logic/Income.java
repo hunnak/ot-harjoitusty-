@@ -1,4 +1,4 @@
-package com.mycompany.budjetti;
+package com.mycompany.budjetti.logic;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

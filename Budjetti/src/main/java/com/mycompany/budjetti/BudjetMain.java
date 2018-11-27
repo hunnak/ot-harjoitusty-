@@ -1,5 +1,6 @@
 package com.mycompany.budjetti;
 
+import com.mycompany.budjetti.ui.Budjet;
 import java.util.Scanner;
 
 /*
