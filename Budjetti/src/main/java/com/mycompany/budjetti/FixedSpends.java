@@ -50,5 +50,8 @@ public class FixedSpends {
     public void setCar(int x){
         this.totalspend=this.totalspend+x;
     }
+    public void setSUPRISEgotUnluckly(int x){
+        this.totalspend=this.totalspend+x;
+    }
     
 }
