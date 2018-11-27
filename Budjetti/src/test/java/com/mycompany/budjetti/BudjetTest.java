@@ -42,11 +42,12 @@ public class BudjetTest {
      @Test
      public void hello() {}
      
-     @Test
+    /* @Test
      public void doesOneWork(){
          Budjet test= new Budjet();
          System.out.print("1");
-     }
+     } 
+    */
      
      
 }
