@@ -9,6 +9,8 @@ Dokumentaatio |
 [Suunnitelma/raapustus](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentointi/suunnitelma.md)
 
 [Suunnitelman täydennys/arkkitehtuuri](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentointi/arkkitehtuuri.md)
+
+
 [työaikakirjanpito](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentointi/tyoaikakirjanpito)
 
 
