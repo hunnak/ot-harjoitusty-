@@ -18,28 +18,17 @@ import static org.junit.Assert.*;
  */
 public class TimeAndAverageTest {
     
-    public TimeAndAverageTest() {
-    }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
+    TimeAndAverage timeandavg;
     
     @Before
     public void setUp() {
+        timeandavg= new TimeAndAverage();
     }
     
-    @After
-    public void tearDown() {
+    @Test
+    public void setTotalTimeNgetTotaltime(){
+        this.timeandavg.setTotaltime(3);
+        assertEquals(3,this.timeandavg.getTotalTime());
     }
-
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
-    // @Test
-    // public void hello() {}
+   
 }

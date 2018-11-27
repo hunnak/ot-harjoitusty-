@@ -1,4 +1,4 @@
-package com.mycompany.budjetti;
+package com.mycompany.budjetti.ui;
 
 import com.mycompany.budjetti.ui.Budjet;
 import java.util.Scanner;
