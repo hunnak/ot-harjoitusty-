@@ -31,6 +31,7 @@ public class BudjetTest {
     
     @Before
     public void setUp() {
+        
     }
     
     @After
@@ -40,4 +41,12 @@ public class BudjetTest {
     
      @Test
      public void hello() {}
+     
+     @Test
+     public void doesOneWork(){
+         Budjet test= new Budjet();
+         System.out.print("1");
+     }
+     
+     
 }

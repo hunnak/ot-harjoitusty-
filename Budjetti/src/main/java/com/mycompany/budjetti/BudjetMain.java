@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class BudjetMain {
     public static void main(String[] args){
         Budjet budjet= new Budjet();
-        System.out.println();
+       
         
     }    
 }
