@@ -19,10 +19,13 @@ import static org.junit.Assert.*;
 public class TimeAndAverageTest {
     
     TimeAndAverage timeandavg;
-    
+    Income income;
+    FixedSpends fixspends;
     @Before
     public void setUp() {
         timeandavg= new TimeAndAverage();
+        income = new Income();
+        fixspends = new FixedSpends();
     }
     
     @Test
