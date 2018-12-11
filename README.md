@@ -8,13 +8,13 @@ Ohjelmaan ei tulla tekemään graaffista käyttöliittymää ajanpuutteellisuude
 
 Dokumentaatio | 
 ------------- |
-[Suunnitelma/raapustus](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentointi/suunnitelma.md)
+[Suunnitelma/raapustus](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentaatio/suunnitelma.md)
 
-[Suunnitelman täydennys/arkkitehtuuri](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentointi/arkkitehtuuri.md)
+[Suunnitelman täydennys/arkkitehtuuri](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentaatio/arkkitehtuuri.md)
 
 [Vaatimusmäärittely](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
-[työaikakirjanpito](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentointi/tyoaikakirjanpito)
+[työaikakirjanpito](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentaatio/tyoaikakirjanpito.md)
 
 
 
