@@ -46,9 +46,37 @@ public class Budjet {
             String salary= reader.nextLine();
             int salaryInt = Integer.parseInt(salary);
             time.addMoneyFlowOfMonth();
-            
             time.addIncomeToMonth(step,salaryInt );
-            System.out.println("Temporary UI test " + time.getIncomeOfMonth(step));
+            System.out.println("Do you have benefits, could you add those together?");
+            String benefits= reader.nextLine();
+            int benefitsInt = Integer.parseInt(benefits);
+            time.addMoneyFlowOfMonth();
+            time.addIncomeToMonth(step,benefitsInt);
+            System.out.println("Do you already get pension, would you like to add that?");
+            String pension= reader.nextLine();
+            int pensionInt = Integer.parseInt(pension);
+            time.addMoneyFlowOfMonth();
+            time.addIncomeToMonth(step,pensionInt);
+            System.out.println("Do you do extrawork, would you like to add that?");
+            String extraWork= reader.nextLine();
+            int extraWorkInt = Integer.parseInt(extraWork);
+            time.addMoneyFlowOfMonth();
+            time.addIncomeToMonth(step,extraWorkInt);
+            System.out.println("Are you an investor ;) , would you like to add that?");
+            String dividend= reader.nextLine();
+            int dividendInt = Integer.parseInt(dividend);
+            time.addMoneyFlowOfMonth();
+            time.addIncomeToMonth(step,dividendInt);
+            System.out.println("HEY did you do some kind of sidebussiness, would you like to add that?");
+            String sideBussiness= reader.nextLine();
+            int sideBussinessInt = Integer.parseInt(sideBussiness);
+            time.addMoneyFlowOfMonth();
+            time.addIncomeToMonth(step,sideBussinessInt);
+            System.out.println("Did you were lucky!? ...cmon please add the amount");
+            String luckyboy= reader.nextLine();
+            int luckyboyInt = Integer.parseInt(luckyboy);
+            time.addMoneyFlowOfMonth();
+            time.addIncomeToMonth(step,luckyboyInt);
             
             
             
@@ -56,7 +84,7 @@ public class Budjet {
             
             
             
-            
+            System.out.println("Temporary UI test (Total income of the month)" + time.getIncomeOfMonth(step));
             step++;
         }
         System.out.println("Temporary UI test total Income " + time.getSimulationTotalIncome());
