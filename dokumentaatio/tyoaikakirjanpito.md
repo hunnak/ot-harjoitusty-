@@ -20,8 +20,8 @@ työaikakirjanpito
 | 11.12 | 2,5  | Reposition siivousta, dokumentaation selvennystä jasiivousta, |
 |       |      | jar lisätty, checkstyle lisätty, jacoco korjattu |
 |       |  3   | koodausta |
-|       |      |
-| yht   | 34   | päivitän luvun vasta kun kurssin deadline päivänä| 
+|       |  1   | Testejä sekä dokumentaatiosiivousta |
+| yht   | 35   | päivitän luvun vasta kun kurssin deadline päivänä| 
 
 
 lisäksi laskareihin meni yhteensä noin 15h.
