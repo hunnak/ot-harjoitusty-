@@ -43,7 +43,12 @@ public class Budjet {
         while(step<timePeriodInt){
             System.out.println("Lets start from income");
             System.out.println("put your salary after taxes");
+            String salary= reader.nextLine();
+            int salaryInt = Integer.parseInt(salary);
             time.addMoneyFlowOfMonth();
+            
+            time.addIncomeToMonth(step,salaryInt );
+            System.out.println("Temporary UI test" + time.getIncomeOfMonth(step));
             
             
             
