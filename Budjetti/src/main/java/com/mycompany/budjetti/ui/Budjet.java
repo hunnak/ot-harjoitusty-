@@ -48,7 +48,7 @@ public class Budjet {
             time.addMoneyFlowOfMonth();
             
             time.addIncomeToMonth(step,salaryInt );
-            System.out.println("Temporary UI test" + time.getIncomeOfMonth(step));
+            System.out.println("Temporary UI test " + time.getIncomeOfMonth(step));
             
             
             
@@ -59,7 +59,7 @@ public class Budjet {
             
             step++;
         }
-        
+        System.out.println("Temporary UI test total Income " + time.getSimulationTotalIncome());
         
         
         
