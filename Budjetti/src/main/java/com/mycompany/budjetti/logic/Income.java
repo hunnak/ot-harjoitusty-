@@ -19,34 +19,53 @@ public class Income {
     public Income(){
         
     }
-    public void setTotalIncome(int x){
-        this.totalIncome=x;
-    }
-    public int getIncome(){
-        return this.totalIncome;
-    }
     
-    public void setSalary(int x){
-        this.totalIncome=this.totalIncome+x;
-    }
-    public void setBenefits(int x){
-        this.totalIncome=this.totalIncome+x;
-    }
-    public void setPension(int x){
-        this.totalIncome=this.totalIncome+x;
-    }
-    public void setExtraWork(int x){
-        this.totalIncome=this.totalIncome+x;
-    }
-    public void setDividend(int x){
-        this.totalIncome=this.totalIncome+x;
-    }
-    public void setSidebussiness(int x){
-        this.totalIncome=this.totalIncome+x;
-    }
-    public void setSuprise(int x){
-        this.totalIncome=this.totalIncome+x;
-    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+//    public void setTotalIncome(int x){
+//        this.totalIncome=x;
+//    }
+//    public int getIncome(){
+//        return this.totalIncome;
+//    }
+//    
+//    public void setSalary(int x){
+//        this.totalIncome=this.totalIncome+x;
+//    }
+//    public void setBenefits(int x){
+//        this.totalIncome=this.totalIncome+x;
+//    }
+//    public void setPension(int x){
+//        this.totalIncome=this.totalIncome+x;
+//    }
+//    public void setExtraWork(int x){
+//        this.totalIncome=this.totalIncome+x;
+//    }
+//    public void setDividend(int x){
+//        this.totalIncome=this.totalIncome+x;
+//    }
+//    public void setSidebussiness(int x){
+//        this.totalIncome=this.totalIncome+x;
+//    }
+//    public void setSuprise(int x){
+//        this.totalIncome=this.totalIncome+x;
+//    }
     
     
 }

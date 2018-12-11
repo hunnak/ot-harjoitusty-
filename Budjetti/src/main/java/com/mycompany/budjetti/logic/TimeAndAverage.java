@@ -27,9 +27,10 @@ public class TimeAndAverage {
     public int getTotalTime(){
         return this.totaltime;
     }
-    //public void addIncomeMonth(int x){
-    //    this.income.setSalary(x);
-    //}
+    public void addIncomeMonth(){
+        Income income = new Income();
+        this.allIncomes.add(income);
+    }
     
     
     
