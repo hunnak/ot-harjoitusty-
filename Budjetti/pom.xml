@@ -40,7 +40,7 @@
                         <configuration>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>pokemontietokanta.ui.Main</mainClass>
+                                    <mainClass>com.mycompany.budjetti.ui.BudjetMain</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
