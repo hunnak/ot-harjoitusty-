@@ -1,11 +1,11 @@
 
 Arkkitehtuurista suunniteltu tällä hetkellä seuraavasti.
 
-Pääohjelma ja käyttis omassa .ui kansiossaan (tarkoitus myös poistaa jacoco testiraportista).
+Pääohjelma ja käyttis omassa .ui kansiossaan, sekä poistettu jacoco testiraportista.
 
-logiikka omassa kansiossaan.
+Logiikka omassa kansiossaan.
 
-logiikassa menot ja tulot lasketaan omissa luokissaan/olioissa
-Näillä näkymin jokaisesta kuukaudesta tehdään oma tulo- ja meno-olio.
+logiikassa menot ja tulot lasketaan yhdessä samassa kansiossa.
+Näillä näkymin jokaisesta kuukaudesta tehdään oma tulo+meno-olio (MoneyFlow).
 Tulot ja menot käsitellään yhdessä TimeAndAverage oliossa/luokassa.
-Käyttöliittymällä on yhteys näihin olioihin, suoraan TimeAndAverageen ja todennäköisesti välillisesti tulo- ja meno-olioihin.
+Käyttöliittymällä on yhteys näihin olioihin, suoraan TimeAndAverageen ja välillisesti tulo+meno-olioihin.
