@@ -26,6 +26,12 @@ public class MoneyFlowTest {
         
     }
     
+    @Test
+    public void startMoneyTest(){
+        assertEquals(0,this.moneyMoneyMoney.getIncome());
+        assertEquals(0,this.moneyMoneyMoney.getSpends());
+    }
+    
 //    @Test
 //    public void setAndGetTotalSpends(){
 //        this.fixspends.setTotalSpends(600);
