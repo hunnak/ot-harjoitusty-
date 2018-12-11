@@ -19,8 +19,9 @@ työaikakirjanpito
 |       |      | pahoittelen tämän viikon mitätöntä työmäärää. |
 | 11.12 | 2,5  | Reposition siivousta, dokumentaation selvennystä jasiivousta, |
 |       |      | jar lisätty, checkstyle lisätty, jacoco korjattu |
+|       |  3   | koodausta |
 |       |      |
-| yht   | 31   | päivitän luvun vasta kun kurssin deadline päivänä| 
+| yht   | 34   | päivitän luvun vasta kun kurssin deadline päivänä| 
 
 
 lisäksi laskareihin meni yhteensä noin 15h.
