@@ -44,6 +44,19 @@ public class TimeAndAverage {
         }
         return totalIncome;
     }
+    public void addSpendToMonth(int month,int spend){
+        this.allMoneyThatFlows.get(month).addSpend(spend);
+    }
+    public int getSpendsOfMonth(int month){
+        return this.allMoneyThatFlows.get(month).getSpends();
+    }
+    public int getSimulationTotalSpends(){
+        int totalIncome=0;
+        for (int i = 0; i < this.totaltime; i++){
+            totalIncome=totalIncome+this.allMoneyThatFlows.get(i).getSpends();
+        }
+        return totalIncome;
+    }
     
    
     
