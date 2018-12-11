@@ -14,7 +14,7 @@ Dokumentaatio |
 
 [työaikakirjanpito](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentointi/tyoaikakirjanpito)
 
-[Testi raportti (jacoco) ](file:///home/joelhunn/ot-harjoitustyo/Budjetti/target/site/jacoco/index.html)
+
 
 
 Komentorivitoiminnot |
