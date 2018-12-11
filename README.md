@@ -12,6 +12,8 @@ Dokumentaatio |
 
 [Suunnitelman täydennys/arkkitehtuuri](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentointi/arkkitehtuuri.md)
 
+[Vaatimusmäärittely](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentaatio/vaatimusmaarittely.md)
+
 [työaikakirjanpito](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentointi/tyoaikakirjanpito)
 
 
