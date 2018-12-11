@@ -4,7 +4,7 @@ Budjettisovellus     |
 
 Sovelluksen tarkoitus on auttaa käyttäjää seuraamaan budjettiaan ja arvioimaan menojaan.
 Budjettisimulaatio-ohjelmassa simuloidaan tuloja ja menoja 1, 3 tai 6kk ajalta.
-Ohjelma tullaa ntekemään ilman graaffista käyttöliittymää ajanpuutteellisuuden vuoksi.
+Ohjelmaan ei tulla tekemään graaffista käyttöliittymää ajanpuutteellisuuden vuoksi.
 
 Dokumentaatio | 
 ------------- |
