@@ -37,7 +37,26 @@ public class Budjet {
             }
             System.out.println("You typed wrong, type 1, 3 or 6");
         }
+        System.out.println("You have choose now lenght of the simulation");
         time.setTotaltime(timePeriodInt);
+        int step=0;
+        while(step<timePeriodInt){
+            System.out.println("Lets start from income");
+            System.out.println("put your salary after taxes");
+            time.addMoneyFlowOfMonth();
+            
+            
+            
+            
+            
+            
+            
+            
+            step++;
+        }
+        
+        
+        
         
     }
     

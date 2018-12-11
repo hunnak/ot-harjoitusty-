@@ -28,7 +28,7 @@ public class MoneyFlow {
         return this.totalIncome;
     }
     
-    public void setSalary(int x){
+    public void addIncome(int x){
         this.totalIncome=this.totalIncome+x;
     }
     
@@ -38,8 +38,9 @@ public class MoneyFlow {
     public int getSpends(){
         return this.totalspend;
     }
-    public void setRent(int x){
+    public void addSpend(int x){
         this.totalspend=this.totalspend+x;
     }
+    
     
 }

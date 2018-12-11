@@ -15,11 +15,9 @@ import java.util.ArrayList;
 public class TimeAndAverage {
     
     private int totaltime;
-    private ArrayList<Income> allIncomes;
-    private ArrayList<FixedSpends> allFixspends;
+    private ArrayList<MoneyFlow> allMoneyThatFlows;
     public TimeAndAverage(){
-        this.allIncomes = new ArrayList<Income>();
-        this.allFixspends = new ArrayList<FixedSpends>(); 
+        this.allMoneyThatFlows = new ArrayList<MoneyFlow>();
     }
     public void setTotaltime(int x){
         this.totaltime=x;
@@ -27,9 +25,17 @@ public class TimeAndAverage {
     public int getTotalTime(){
         return this.totaltime;
     }
-    public void addIncomeMonth(){
-        Income income = new Income();
-        this.allIncomes.add(income);
+    public void addMoneyFlowOfMonth(){
+        MoneyFlow flow = new MoneyFlow();
+        flow.setTotalIncome(0);
+        flow.setTotalSpends(0);
+        this.allMoneyThatFlows.add(flow);
+    }
+    public void addIncomeToMonth(int month,int income){
+        this.allMoneyThatFlows.get(month).addIncome(income);
+    }
+    public int getIncomeOfMonth(int month){
+        return this.allMoneyThatFlows.get(month).getIncome();
     }
     
     
