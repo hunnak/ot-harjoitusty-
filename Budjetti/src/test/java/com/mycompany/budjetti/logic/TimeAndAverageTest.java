@@ -34,5 +34,25 @@ public class TimeAndAverageTest {
         this.timeandavg.addMoneyFlowOfMonth();
         assertEquals(this.timeandavg.getIncomeOfMonth(0),0);
     }
-   
+    @Test
+    public void addIncomesTest(){
+        int totalIncome=0;
+        this.timeandavg.setTotaltime(2);
+        this.timeandavg.addMoneyFlowOfMonth();
+        this.timeandavg.addIncomeToMonth(0, 500);
+        this.timeandavg.addMoneyFlowOfMonth();
+        this.timeandavg.addIncomeToMonth(1, 500);
+        
+        assertEquals(this.timeandavg.getSimulationTotalIncome(),1000);
+    }
+    @Test
+    public void addSpendsTest(){
+        this.timeandavg.setTotaltime(2);
+        this.timeandavg.addMoneyFlowOfMonth();
+        this.timeandavg.addSpendToMonth(0, 400);
+        this.timeandavg.addMoneyFlowOfMonth();
+        this.timeandavg.addSpendToMonth(1, 400);
+        
+        assertEquals(this.timeandavg.getSimulationTotalSpends(),800);
+    }
 }
