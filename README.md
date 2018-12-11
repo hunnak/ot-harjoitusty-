@@ -2,7 +2,7 @@ Budjettisovellus     |
 -------------------- |
 
 
-
+Sovelluksen tarkoitus on auttaa käyttäjää seuraamaan budjettiaan ja arvioimaan menojaan.
 
 Dokumentaatio | 
 ------------- |
