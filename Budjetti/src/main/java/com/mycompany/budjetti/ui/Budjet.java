@@ -38,6 +38,7 @@ public class Budjet {
             System.out.println("You typed wrong, type 1, 3 or 6");
         }
         time.setTotaltime(timePeriodInt);
+        
     }
     
 }

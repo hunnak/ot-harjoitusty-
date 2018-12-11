@@ -1,5 +1,7 @@
 package com.mycompany.budjetti.logic;
 
+import java.util.ArrayList;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -13,8 +15,11 @@ package com.mycompany.budjetti.logic;
 public class TimeAndAverage {
     
     private int totaltime;
+    private ArrayList<Income> allIncomes;
+    private ArrayList<FixedSpends> allFixspends;
     public TimeAndAverage(){
-        
+        this.allIncomes = new ArrayList<Income>();
+        this.allFixspends = new ArrayList<FixedSpends>(); 
     }
     public void setTotaltime(int x){
         this.totaltime=x;
@@ -22,6 +27,10 @@ public class TimeAndAverage {
     public int getTotalTime(){
         return this.totaltime;
     }
+    //public void addIncomeMonth(int x){
+    //    this.income.setSalary(x);
+    //}
+    
     
     
 }
