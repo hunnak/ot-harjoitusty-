@@ -14,6 +14,6 @@ Käyttöliittymällä on yhteys näihin olioihin, suoraan TimeAndAverageen ja v�
 
 |----------|------------------------|--------------------|
 |          |  *                     |                    |
-|MoneyFlow |  <<<----TimeAndAverage |  <<<---UI          |
+|MoneyFlow |  < TimeAndAverage      |  < UI              |
 |          |     (Logic calc.)      |                    |
 |----------|------------------------|--------------------|
