@@ -126,6 +126,7 @@ public class Budjet {
             System.out.println("Temporary UI test (Total income of the month)" + time.getIncomeOfMonth(step));
             step++;
         }
+        
         System.out.println("Temporary UI test total Income " + time.getSimulationTotalIncome());
         
         

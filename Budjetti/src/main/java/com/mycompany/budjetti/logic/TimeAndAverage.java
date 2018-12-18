@@ -51,13 +51,32 @@ public class TimeAndAverage {
         return this.allMoneyThatFlows.get(month).getSpends();
     }
     public int getSimulationTotalSpends(){
+        int totalSpend=0;
+        for (int i = 0; i < this.totaltime; i++){
+            totalSpend=totalSpend+this.allMoneyThatFlows.get(i).getSpends();
+        }
+        return totalSpend;
+    }
+    public int getSimulationAverageSpends(){
+        int totalSpend=0;
+        for (int i = 0; i < this.totaltime; i++){
+            totalSpend=totalSpend+this.allMoneyThatFlows.get(i).getSpends();
+        }
+        
+        totalSpend=totalSpend/this.totaltime;
+                
+        return totalSpend;
+    }
+    public int getSimulationAverageIncome(){
         int totalIncome=0;
         for (int i = 0; i < this.totaltime; i++){
             totalIncome=totalIncome+this.allMoneyThatFlows.get(i).getSpends();
         }
+        
+        totalIncome=totalIncome/this.totaltime;
+        
         return totalIncome;
-    }
-    
+    }    
    
     
     
