@@ -76,7 +76,24 @@ public class TimeAndAverage {
         totalIncome=totalIncome/this.totaltime;
         
         return totalIncome;
-    }    
+    }
+    public int stateOfMonth(int month){
+        int state=0;
+   
+        int incomes = this.allMoneyThatFlows.get(month).getIncome();
+        int spends = this.allMoneyThatFlows.get(month).getSpends();
+        state=incomes-spends;
+        
+        return state;
+    }
+    public int budjetStatus(){
+        int status=0;
+        int incomes = this.getSimulationTotalIncome();
+        int spends = this.getSimulationTotalSpends();
+        status = incomes - spends;
+        
+        return status;
+    }
    
     
     
