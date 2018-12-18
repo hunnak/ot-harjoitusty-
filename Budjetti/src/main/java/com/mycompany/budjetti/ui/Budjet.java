@@ -77,8 +77,47 @@ public class Budjet {
             int luckyboyInt = Integer.parseInt(luckyboy);
             time.addMoneyFlowOfMonth();
             time.addIncomeToMonth(step,luckyboyInt);
-            
-            
+            System.out.println("Well well, how about your spends?");
+            System.out.println("How much you pay for your rent?");
+            String rent = reader.nextLine();
+            int rentInt = Integer.parseInt(rent);
+            time.addSpendToMonth(step, rentInt);
+            System.out.println("How much you pay for your insurances?");
+            String insurance = reader.nextLine();
+            int insuranceInt = Integer.parseInt(insurance);
+            time.addSpendToMonth(step, insuranceInt);
+            System.out.println("How much you pay for your car every month?");
+            String car = reader.nextLine();
+            int carInt = Integer.parseInt(car);
+            time.addSpendToMonth(step, carInt);
+            System.out.println("How much you pay off your loans in month?");
+            String loan = reader.nextLine();
+            int loanInt = Integer.parseInt(loan);
+            time.addSpendToMonth(step, loanInt);
+            System.out.println("How much you pay for your student oraganization fees?");
+            String stuOrg = reader.nextLine();
+            int stuOrgInt = Integer.parseInt(stuOrg);
+            time.addSpendToMonth(step, stuOrgInt);
+            System.out.println("How much you pay for your hobbies (ex. gym partnership)?");
+            String hobby = reader.nextLine();
+            int hobbyInt = Integer.parseInt(hobby);
+            time.addSpendToMonth(step, hobbyInt);
+            System.out.println("How much you pay for public transportation?");
+            String pubTrans = reader.nextLine();
+            int pubTransInt = Integer.parseInt(pubTrans);
+            time.addSpendToMonth(step, pubTransInt);
+            System.out.println("How much you pay at least mininum for your hygienia?");
+            String hygienia = reader.nextLine();
+            int hygInt = Integer.parseInt(hygienia);
+            time.addSpendToMonth(step, hygInt);
+            System.out.println("How much you pay for your food in mininum in month?");
+            String food = reader.nextLine();
+            int foodInt = Integer.parseInt(rent);
+            time.addSpendToMonth(step, foodInt);
+            System.out.println("Did you were unlucky and had to for something unexpected?");
+            String unlucky = reader.nextLine();
+            int unluckyInt = Integer.parseInt(unlucky);
+            time.addSpendToMonth(step, unluckyInt);
             
             
             
