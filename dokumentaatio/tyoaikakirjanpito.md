@@ -21,6 +21,8 @@ työaikakirjanpito
 |       |      | jar lisätty, checkstyle lisätty, jacoco korjattu |
 |       |  3   | koodausta |
 |       |  1   | Testejä sekä dokumentaatiosiivousta |
+| 18.12 | 1,5  | koodausta, lisää metodei ja käyttöliittymää|
+| 20.12 |      |
 | yht   | 35   | päivitän luvun vasta kun kurssin deadline päivänä| 
 
 
