@@ -55,4 +55,5 @@ public class TimeAndAverageTest {
         
         assertEquals(this.timeandavg.getSimulationTotalSpends(),800);
     }
+    
 }
