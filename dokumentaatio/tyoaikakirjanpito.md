@@ -23,7 +23,7 @@ työaikakirjanpito
 |       |  1   | Testejä sekä dokumentaatiosiivousta |
 | 18.12 | 1,5  | koodausta, lisää metodei ja käyttöliittymää|
 | 20.12 |      |
-| yht   | 35   | päivitän luvun vasta kun kurssin deadline päivänä| 
+| yht   | 36,5 | päivitän luvun vasta kun kurssin deadline päivänä| 
 
 
 lisäksi laskareihin meni yhteensä noin 15h.
