@@ -6,6 +6,11 @@
     <property name="localeCountry" value="EN"/>
     <property name="localeLanguage" value="en"/>
 
+   <!-- <module name='SupressionFilter' >
+        <property name='file' value="supression.xml"/>
+        <property name='optional' value="false"/>
+    </module>  -->  
+    
     <module name='TreeWalker'>
 
         <property name='tabWidth' value='4' />

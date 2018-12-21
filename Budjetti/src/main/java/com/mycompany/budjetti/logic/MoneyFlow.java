@@ -8,39 +8,41 @@ package com.mycompany.budjetti.logic;
 /**
  *
  * @author joelhunn
- * 
- * This Class will include incomes & spends 
+ *
+ * This Class will include incomes & spends
  */
-
 public class MoneyFlow {
-    
+
     private int totalIncome;
     private int totalspend;
-    public MoneyFlow(){
-        totalIncome=0;
-        totalspend=0;
+
+    public MoneyFlow() {
+        totalIncome = 0;
+        totalspend = 0;
     }
-    
-    public void setTotalIncome(int x){
-        this.totalIncome=x;
+
+    public void setTotalIncome(int x) {
+        this.totalIncome = x;
     }
-    public int getIncome(){
+
+    public int getIncome() {
         return this.totalIncome;
     }
-    
-    public void addIncome(int x){
-        this.totalIncome=this.totalIncome+x;
+
+    public void addIncome(int x) {
+        this.totalIncome = this.totalIncome + x;
     }
-    
-    public void setTotalSpends(int x){
-        this.totalspend=x;
+
+    public void setTotalSpends(int x) {
+        this.totalspend = x;
     }
-    public int getSpends(){
+
+    public int getSpends() {
         return this.totalspend;
     }
-    public void addSpend(int x){
-        this.totalspend=this.totalspend+x;
+
+    public void addSpend(int x) {
+        this.totalspend = this.totalspend + x;
     }
-    
-    
+
 }

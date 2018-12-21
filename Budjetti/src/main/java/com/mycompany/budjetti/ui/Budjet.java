@@ -13,25 +13,25 @@ import java.util.Scanner;
  * @author joelhunn
  */
 public class Budjet {
-    
-    public Budjet(){
+
+    public Budjet() {
         TimeAndAverage time = new TimeAndAverage();
         Scanner reader = new Scanner(System.in);
-        
+
         int timePeriodInt;
-        while(true){
+        while (true) {
             System.out.println("What time period you would like to use?");
             System.out.println("Choose 1kk, 3kk, 6kk, type 1, 3 or 6");
             String timePeriod = reader.nextLine();
-            if(timePeriod.equals("1")){
+            if (timePeriod.equals("1")) {
                 timePeriodInt = Integer.parseInt(timePeriod);
                 break;
             }
-            if(timePeriod.equals("3")){
+            if (timePeriod.equals("3")) {
                 timePeriodInt = Integer.parseInt(timePeriod);
                 break;
             }
-            if(timePeriod.equals("6")){
+            if (timePeriod.equals("6")) {
                 timePeriodInt = Integer.parseInt(timePeriod);
                 break;
             }
@@ -39,38 +39,38 @@ public class Budjet {
         }
         System.out.println("You have choose now lenght of the simulation");
         time.setTotaltime(timePeriodInt);
-        int step=0;
-        while(step<timePeriodInt){
-            int stepPlusOne=step+1;
+        int step = 0;
+        while (step < timePeriodInt) {
+            int stepPlusOne = step + 1;
             System.out.println("Could you add " + stepPlusOne + ". month income, put your salary after taxes");
-            String salary= reader.nextLine();
-            int salaryInt= Integer.parseInt(salary);
+            String salary = reader.nextLine();
+            int salaryInt = Integer.parseInt(salary);
             time.addMoneyFlowOfMonth();
-            time.addIncomeToMonth(step,salaryInt);
+            time.addIncomeToMonth(step, salaryInt);
             System.out.println("Do you have benefits, could you add those together?");
-            String benefits= reader.nextLine();
+            String benefits = reader.nextLine();
             int benefitsInt = Integer.parseInt(benefits);
-            time.addIncomeToMonth(step,benefitsInt);
+            time.addIncomeToMonth(step, benefitsInt);
             System.out.println("Do you already get pension, would you like to add that?");
-            String pension= reader.nextLine();
+            String pension = reader.nextLine();
             int pensionInt = Integer.parseInt(pension);
-            time.addIncomeToMonth(step,pensionInt);
+            time.addIncomeToMonth(step, pensionInt);
             System.out.println("Do you do extrawork, would you like to add that?");
-            String extraWork= reader.nextLine();
+            String extraWork = reader.nextLine();
             int extraWorkInt = Integer.parseInt(extraWork);
-            time.addIncomeToMonth(step,extraWorkInt);
+            time.addIncomeToMonth(step, extraWorkInt);
             System.out.println("Are you an investor ;) , would you like to add that?");
-            String dividend= reader.nextLine();
+            String dividend = reader.nextLine();
             int dividendInt = Integer.parseInt(dividend);
-            time.addIncomeToMonth(step,dividendInt);
+            time.addIncomeToMonth(step, dividendInt);
             System.out.println("HEY did you do some kind of sidebussiness, would you like to add that?");
-            String sideBussiness= reader.nextLine();
+            String sideBussiness = reader.nextLine();
             int sideBussinessInt = Integer.parseInt(sideBussiness);
-            time.addIncomeToMonth(step,sideBussinessInt);
+            time.addIncomeToMonth(step, sideBussinessInt);
             System.out.println("Did you were lucky!? ...cmon please add the amount");
-            String luckyboy= reader.nextLine();
+            String luckyboy = reader.nextLine();
             int luckyboyInt = Integer.parseInt(luckyboy);
-            time.addIncomeToMonth(step,luckyboyInt);
+            time.addIncomeToMonth(step, luckyboyInt);
             System.out.println("Well well, how about your spends?");
             System.out.println("How much you pay for your rent?");
             String rent = reader.nextLine();
@@ -112,23 +112,18 @@ public class Budjet {
             String unlucky = reader.nextLine();
             int unluckyInt = Integer.parseInt(unlucky);
             time.addSpendToMonth(step, unluckyInt);
-            
-            
-            
-            
+
             System.out.println("Temporary UI test (Total income of the month)" + time.getIncomeOfMonth(step));
-            System.out.println("State of this month budjet would be "+time.stateOfMonth(step));
+            System.out.println("State of this month budjet would be " + time.stateOfMonth(step));
             step++;
         }
-        
+
         System.out.println("Total Income of this simulation " + time.getSimulationTotalIncome());
-        System.out.println("Total spends of this simulation " +time.getSimulationTotalSpends());
-        int AverageBudjetOfMonth=(time.getSimulationAverageIncome() - time.getSimulationAverageSpends());
-        System.out.println("Average month value of your budjet " +AverageBudjetOfMonth);
-        System.out.println("Total budjet for this simulation was " +time.budjetStatus());
-        
-    
-        
+        System.out.println("Total spends of this simulation " + time.getSimulationTotalSpends());
+        int AverageBudjetOfMonth = (time.getSimulationAverageIncome() - time.getSimulationAverageSpends());
+        System.out.println("Average month value of your budjet " + AverageBudjetOfMonth);
+        System.out.println("Total budjet for this simulation was " + time.budjetStatus());
+
     }
-    
+
 }
