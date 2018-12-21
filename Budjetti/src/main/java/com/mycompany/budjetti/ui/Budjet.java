@@ -106,7 +106,7 @@ public class Budjet {
             time.addSpendToMonth(step, hygInt);
             System.out.println("How much you pay for your food in mininum in month?");
             String food = reader.nextLine();
-            int foodInt = Integer.parseInt(rent);
+            int foodInt = Integer.parseInt(food);
             time.addSpendToMonth(step, foodInt);
             System.out.println("Did you were unlucky and had to for something unexpected?");
             String unlucky = reader.nextLine();

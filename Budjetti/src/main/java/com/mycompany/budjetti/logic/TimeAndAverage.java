@@ -90,11 +90,11 @@ public class TimeAndAverage {
     }
 
     public int stateOfMonth(int month) {
-        int state = 0;
+        
 
         int incomes = this.allMoneyThatFlows.get(month).getIncome();
         int spends = this.allMoneyThatFlows.get(month).getSpends();
-        state = incomes - spends;
+        int state = incomes - spends;
 
         return state;
     }
