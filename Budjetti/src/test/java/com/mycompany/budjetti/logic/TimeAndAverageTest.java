@@ -55,5 +55,12 @@ public class TimeAndAverageTest {
         
         assertEquals(this.timeandavg.getSimulationTotalSpends(),800);
     }
-    
+    @Test
+    public void getMonthSpends(){
+        this.timeandavg.setTotaltime(1);
+        this.timeandavg.addMoneyFlowOfMonth();
+        this.timeandavg.addSpendToMonth(0, 200);
+        
+        assertEquals(this.timeandavg.getSpendsOfMonth(0), 200);
+    }
 }
