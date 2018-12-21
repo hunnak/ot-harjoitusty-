@@ -9,7 +9,10 @@ package com.mycompany.budjetti.logic;
  *
  * @author joelhunn
  *
- * This Class will include incomes & spends
+ */
+
+/**
+ * This Class will include incomes and spends
  */
 public class MoneyFlow {
 
