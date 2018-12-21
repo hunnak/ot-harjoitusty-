@@ -1,13 +1,13 @@
-Budjettisovellus     | 
--------------------- |
+#Budjettisovellus    
+
 
 
 Sovelluksen tarkoitus on auttaa käyttäjää seuraamaan budjettiaan ja arvioimaan menojaan.
 Budjettisimulaatio-ohjelmassa simuloidaan tuloja ja menoja 1, 3 tai 6kk ajalta.
 Ohjelmaan ei tulla tekemään graaffista käyttöliittymää ajanpuutteellisuuden vuoksi.
 
-Dokumentaatio | 
-------------- |
+##Dokumentaatio  
+
 [Suunnitelma/raapustus](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentaatio/suunnitelma.md)
 
 [Suunnitelman täydennys/arkkitehtuuri](https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentaatio/arkkitehtuuri.md)
@@ -19,11 +19,10 @@ Dokumentaatio |
 
 
 
-Komentorivitoiminnot |
--------------------- |
+##Komentorivitoiminnot
 
-Testaus |
-------- |
+##Testaus 
+
 
 Testit suoritetaan komennolla
 
