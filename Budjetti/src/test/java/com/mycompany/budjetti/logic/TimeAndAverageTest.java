@@ -101,4 +101,18 @@ public class TimeAndAverageTest {
         
         assertEquals(this.timeandavg.stateOfMonth(0), 250);
     }
+    
+    @Test
+    public void stateOfBudjet(){
+                this.timeandavg.setTotaltime(2);
+        this.timeandavg.addMoneyFlowOfMonth();
+        this.timeandavg.addIncomeToMonth(0, 500);
+        this.timeandavg.addMoneyFlowOfMonth();
+        this.timeandavg.addIncomeToMonth(1, 1000);
+
+        this.timeandavg.addSpendToMonth(0, 250);
+        this.timeandavg.addSpendToMonth(1, 250);
+        
+        assertEquals(this.timeandavg.budjetStatus(), 1000);
+    }
 }
