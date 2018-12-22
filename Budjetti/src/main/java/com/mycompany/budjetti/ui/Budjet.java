@@ -113,7 +113,7 @@ public class Budjet {
             int unluckyInt = Integer.parseInt(unlucky);
             time.addSpendToMonth(step, unluckyInt);
 
-            System.out.println("Temporary UI test (Total income of the month)" + time.getIncomeOfMonth(step));
+   
             System.out.println("State of this month budjet would be " + time.stateOfMonth(step));
             step++;
         }
