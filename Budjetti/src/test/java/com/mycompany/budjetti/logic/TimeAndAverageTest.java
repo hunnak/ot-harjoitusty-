@@ -25,12 +25,12 @@ public class TimeAndAverageTest {
     }
     
     @Test
-    public void setTotalTimeNgetTotaltime(){
+    public void setTotalTimeNgetTotaltimeTest(){
         this.timeandavg.setTotaltime(3);
         assertEquals(3,this.timeandavg.getTotalTime());
     }
     @Test
-    public void isThereMonth(){
+    public void isThereMonthTest(){
         this.timeandavg.addMoneyFlowOfMonth();
         assertEquals(this.timeandavg.getIncomeOfMonth(0),0);
     }
@@ -56,7 +56,7 @@ public class TimeAndAverageTest {
         assertEquals(this.timeandavg.getSimulationTotalSpends(),800);
     }
     @Test
-    public void getMonthSpends(){
+    public void getMonthSpendsTest(){
         this.timeandavg.setTotaltime(1);
         this.timeandavg.addMoneyFlowOfMonth();
         this.timeandavg.addSpendToMonth(0, 200);
@@ -64,7 +64,7 @@ public class TimeAndAverageTest {
         assertEquals(this.timeandavg.getSpendsOfMonth(0), 200);
     }
     @Test
-    public void averageIncome(){
+    public void averageIncomeTest(){
         this.timeandavg.setTotaltime(3);
         this.timeandavg.addMoneyFlowOfMonth();
         this.timeandavg.addIncomeToMonth(0, 500);
@@ -76,7 +76,7 @@ public class TimeAndAverageTest {
         assertEquals(this.timeandavg.getSimulationAverageIncome(), 1000);
     }
     @Test
-    public void averageSpends(){
+    public void averageSpendsTest(){
         this.timeandavg.setTotaltime(3);
         this.timeandavg.addMoneyFlowOfMonth();
         this.timeandavg.addSpendToMonth(0, 500);
@@ -86,5 +86,19 @@ public class TimeAndAverageTest {
         this.timeandavg.addSpendToMonth(2, 1500);
         
         assertEquals(this.timeandavg.getSimulationAverageSpends(), 1000);
-    }    
+    }
+
+    @Test
+    public void stateOfMonthTest(){
+        this.timeandavg.setTotaltime(2);
+        this.timeandavg.addMoneyFlowOfMonth();
+        this.timeandavg.addIncomeToMonth(0, 500);
+        this.timeandavg.addMoneyFlowOfMonth();
+        this.timeandavg.addIncomeToMonth(1, 1000);
+
+        this.timeandavg.addSpendToMonth(0, 250);
+        this.timeandavg.addSpendToMonth(1, 250);
+        
+        assertEquals(this.timeandavg.stateOfMonth(0), 250);
+    }
 }
