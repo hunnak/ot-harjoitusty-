@@ -25,7 +25,7 @@ työaikakirjanpito
 | 20.12 |  1   | Käyttiksen laajennusta ja käyttiksen virheen korjaus|
 | 21.12 | 1,5  | checkstyle fix, koodin korjausta, javadoc fix, yks testi lisää |
 | 22.12 | 3  | Työn viimeistelyä loppupalautusta varten, koodia, testejä, dokumenttien päivitystä |
-| yht   | 39 | päivitän luvun vasta kun kurssin deadline päivänä| 
+| yht   | 42 | päivitän luvun vasta kun kurssin deadline päivänä| 
 
 
 lisäksi laskareihin meni yhteensä noin 15h.
