@@ -63,4 +63,16 @@ public class TimeAndAverageTest {
         
         assertEquals(this.timeandavg.getSpendsOfMonth(0), 200);
     }
+    @Test
+    public void averageIncome(){
+        this.timeandavg.setTotaltime(3);
+        this.timeandavg.addMoneyFlowOfMonth();
+        this.timeandavg.addIncomeToMonth(0, 500);
+        this.timeandavg.addMoneyFlowOfMonth();
+        this.timeandavg.addIncomeToMonth(1, 1000);
+        this.timeandavg.addMoneyFlowOfMonth();
+        this.timeandavg.addIncomeToMonth(2, 1500);
+        
+        assertEquals(this.timeandavg.getSimulationAverageIncome(), 1000);
+    }
 }

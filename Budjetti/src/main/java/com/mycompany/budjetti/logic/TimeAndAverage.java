@@ -81,7 +81,7 @@ public class TimeAndAverage {
     public int getSimulationAverageIncome() {
         int totalIncome = 0;
         for (int i = 0; i < this.totaltime; i++) {
-            totalIncome = totalIncome + this.allMoneyThatFlows.get(i).getSpends();
+            totalIncome = totalIncome + this.allMoneyThatFlows.get(i).getIncome();
         }
 
         totalIncome = totalIncome / this.totaltime;
