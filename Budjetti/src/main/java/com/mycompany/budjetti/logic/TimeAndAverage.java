@@ -23,26 +23,38 @@ public class TimeAndAverage {
     public void setTotaltime(int x) {
         this.totaltime = x;
     }
-
+    
     public int getTotalTime() {
         return this.totaltime;
     }
 
+    /*
+     * Lisää menotulo-olion 
+     */    
     public void addMoneyFlowOfMonth() {
         MoneyFlow flow = new MoneyFlow();
         flow.setTotalIncome(0);
         flow.setTotalSpends(0);
         this.allMoneyThatFlows.add(flow);
     }
-
+    
+    /*
+     * Lisää tuloja haluttuun kuukauteen
+     */
     public void addIncomeToMonth(int month, int income) {
         this.allMoneyThatFlows.get(month).addIncome(income);
     }
-
+    
+    /*
+     *Hakee tulot halutusta kuukaudesta
+     */    
     public int getIncomeOfMonth(int month) {
         return this.allMoneyThatFlows.get(month).getIncome();
     }
 
+    /*
+     * Kertoo simulaation kokonaisuustulot
+     */
     public int getSimulationTotalIncome() {
         int totalIncome = 0;
         for (int i = 0; i < this.totaltime; i++) {
@@ -51,14 +63,23 @@ public class TimeAndAverage {
         return totalIncome;
     }
 
+    /*
+     * Lisää menoja haluttuun kuukauteen
+     */
     public void addSpendToMonth(int month, int spend) {
         this.allMoneyThatFlows.get(month).addSpend(spend);
     }
 
+    /*
+     * Hakee menot halutusta kuukaudesta
+     */    
     public int getSpendsOfMonth(int month) {
         return this.allMoneyThatFlows.get(month).getSpends();
     }
 
+    /*
+     * Kertoo simulaation kokonaismenot 
+     */    
     public int getSimulationTotalSpends() {
         int totalSpend = 0;
         for (int i = 0; i < this.totaltime; i++) {
@@ -67,6 +88,9 @@ public class TimeAndAverage {
         return totalSpend;
     }
 
+    /*
+     * Kertoo simulaation keskiarvomenot kuukaudessa
+     */    
     public int getSimulationAverageSpends() {
         int totalSpend = 0;
         for (int i = 0; i < this.totaltime; i++) {
@@ -77,7 +101,10 @@ public class TimeAndAverage {
 
         return totalSpend;
     }
-
+    
+    /*
+     * Kertoo simulaation keskiarvotulot kuukaudessa
+     */
     public int getSimulationAverageIncome() {
         int totalIncome = 0;
         for (int i = 0; i < this.totaltime; i++) {
@@ -88,7 +115,11 @@ public class TimeAndAverage {
 
         return totalIncome;
     }
+    
 
+    /*
+     *   Kertoo halutun kuukauden budjetin
+     */
     public int stateOfMonth(int month) {
         
 
@@ -99,6 +130,9 @@ public class TimeAndAverage {
         return state;
     }
 
+    /*
+     * Kertoo koko simulaation budjetin menojen jälkeen
+     */    
     public int budjetStatus() {
         int status = 0;
         int incomes = this.getSimulationTotalIncome();
