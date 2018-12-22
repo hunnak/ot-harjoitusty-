@@ -14,3 +14,11 @@ Sovelluksella on ainoastaan yksi käyttäjärooli eli normaali käyttäjä.
 # Perusversion tarjoama toiminnallisuus
 
 Ohjelma ajetaan ja kun ohjelma käynnistyy valitaan simulaatiokuukausin määrä. Sitten vain syötellään lukuja miten ohjelma pyytää ja saadaan erilaisia välituloksia, sekä lopulliset tulokset.
+
+# Jatkokehitysideoita
+
+-Sovelluksen voisi kehittää graaffisen käyttöliittymän
+
+-Sovelluksen budjettianalyysiin voisi lisätä menojen ja tulojen funktiokuvaajat.
+
+-Analyysin voisi tallentaa muistiin johonkin tekstitiedostoon.
