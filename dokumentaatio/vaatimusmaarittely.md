@@ -1,13 +1,16 @@
-Vaatimusmäärittely |
------------------- |
+## Vaatimusmäärittely 
 
 
-Sovelluksen tarkoitus
+
+# Sovelluksen tarkoitus
 
 Sovelluksen avulla käyttäjien on mahdollista pitää kirjaa budjetistaan, havainnollistaa menojaan ja budjettiaan.
 
-Alkuvaiheessa sovelluksella on ainoastaan yksi käyttäjärooli eli normaali käyttäjä. Myöhemmin sovellukseen saatetaan lisätä suuremmilla oikeuksilla varustettu pääkäyttäjä.
+Sovelluksella on ainoastaan yksi käyttäjärooli eli normaali käyttäjä. 
 
-Käyttöliittymäluonnos
+# Käyttöliittymäluonnos
+<img src = "https://github.com/hunnak/ot-harjoitusty-/blob/master/dokumentaatio/luokkakaavio.png" width="750">
 
-...
+# Perusversion tarjoama toiminnallisuus
+
+Ohjelma ajetaan ja kun ohjelma käynnistyy valitaan simulaatiokuukausin määrä. Sitten vain syötellään lukuja miten ohjelma pyytää ja saadaan erilaisia välituloksia, sekä lopulliset tulokset.
